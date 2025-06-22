@@ -1,4 +1,6 @@
 {
   "item.pbe.darkstone": "Dark Stone",
-  "item.pbe.whitestone": "White Stone"
+  "item.pbe.whitestone": "White Stone",
+
+  "creativetab.pbe_tab": "PBE"
 }

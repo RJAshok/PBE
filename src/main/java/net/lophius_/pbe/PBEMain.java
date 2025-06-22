@@ -1,6 +1,7 @@
 package net.lophius_.pbe;
 
 import com.mojang.logging.LogUtils;
+import net.lophius_.pbe.item.ModCreativeModeTabs;
 import net.lophius_.pbe.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -31,6 +32,8 @@ public class PBEMain
     public PBEMain(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
