@@ -1,6 +1,7 @@
 package net.lophius_.pbe.item;
 
 import net.lophius_.pbe.PBEMain;
+import net.lophius_.pbe.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,9 @@ public class ModCreativeModeTabs {
             .displayItems((pParameters, pOutput) -> {
                 pOutput.accept(ModItems.DARKSTONE.get());
                 pOutput.accept(ModItems.WHITESTONE.get());
+                pOutput.accept(ModBlocks.BLANK_FlOOR_DRAGONSPIRAL.get());
+                pOutput.accept(ModBlocks.PATTERN_FLOOR_DRAGONSPIRAL.get());
+                pOutput.accept(ModBlocks.PILLAR_FLOOR_DRAGONSPIRAL.get());
             })
             .build());
 

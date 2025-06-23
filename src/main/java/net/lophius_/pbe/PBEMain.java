@@ -1,6 +1,7 @@
 package net.lophius_.pbe;
 
 import com.mojang.logging.LogUtils;
+import net.lophius_.pbe.block.ModBlocks;
 import net.lophius_.pbe.item.ModCreativeModeTabs;
 import net.lophius_.pbe.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -33,6 +34,7 @@ public class PBEMain
     {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModBlocks.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         // Register the commonSetup method for modloading
@@ -64,10 +66,6 @@ public class PBEMain
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.DARKSTONE);
-        event.accept(ModItems.WHITESTONE);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

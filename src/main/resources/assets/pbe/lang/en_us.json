@@ -1,6 +1,7 @@
 {
   "item.pbe.darkstone": "Dark Stone",
   "item.pbe.whitestone": "White Stone",
-
+  "block.pbe.blank_floor_dragonspiral": "Blank DragonSpiral Floor",
+  "block.pbe.pattern_floor_dragonspiral": "Pattern DragonSpiral Floor",
   "creativetab.pbe_tab": "PBE"
 }
