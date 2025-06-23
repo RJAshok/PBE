@@ -4,5 +4,7 @@
   "block.pbe.blank_floor_dragonspiral": "Blank DragonSpiral Floor",
   "block.pbe.pattern_floor_dragonspiral": "Pattern DragonSpiral Floor",
   "block.pbe.pillar_floor_dragonspiral": "Pillar Floor DragonSpiral",
+  "block.pbe.blank_outer_dragonspiral": "Blank Outer DragonSpiral",
+  "block.pbe.brick_outer_dragonspiral": "Brick Outer DragonSpiral",
   "creativetab.pbe_tab": "PBE"
 }

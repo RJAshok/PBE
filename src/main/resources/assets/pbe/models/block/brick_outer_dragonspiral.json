@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "pbe:block/brick_outer_dragonspiral"
+  }
+}
