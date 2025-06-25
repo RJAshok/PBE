@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                 pOutput.accept(ModBlocks.PILLAR_FLOOR_DRAGONSPIRAL.get());
                 pOutput.accept(ModBlocks.BLANK_OUTER_DRAGONSPIRAL.get());
                 pOutput.accept(ModBlocks.BRICK_OUTER_DRAGONSPIRAL.get());
+                pOutput.accept(ModBlocks.SPAWN_FLOOR_DRAGONSPIRAL.get());
             })
             .build());
 

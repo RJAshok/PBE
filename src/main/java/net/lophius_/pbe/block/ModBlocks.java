@@ -33,6 +33,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> BRICK_OUTER_DRAGONSPIRAL = registerBlock("brick_outer_dragonspiral",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.BEDROCK)));
 
+    public static final RegistryObject<Block> SPAWN_FLOOR_DRAGONSPIRAL = registerBlock("spawn_floor_dragonspiral",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BEDROCK)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

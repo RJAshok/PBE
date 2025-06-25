@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "up": "pbe:block/pattern_floor_dragonspiral",
+    "down": "pbe:block/blank_floor_dragonspiral",
+    "north": "pbe:block/side_floor_dragonspiral",
+    "south": "pbe:block/side_floor_dragonspiral",
+    "east": "pbe:block/side_floor_dragonspiral",
+    "west": "pbe:block/side_floor_dragonspiral"
+  }
+}
